@@ -1,4 +1,4 @@
-package ywm.itg.core.log.service;
+package com.github.ywm.itg.core.log.service;
 
 import java.io.File;
 import java.util.UUID;
@@ -12,10 +12,11 @@ import org.springframework.web.context.request.RequestAttributes;
 import org.springframework.web.context.request.RequestContextHolder;
 import org.springframework.web.multipart.MultipartFile;
 
+import com.github.ywm.itg.core.exception.ItgExcption;
+
 import ch.qos.logback.classic.Level;
 import ch.qos.logback.classic.LoggerContext;
 import ch.qos.logback.classic.util.ContextInitializer;
-import ywm.itg.core.exception.ItgExcption;
 
 /**
  * @author ywm

@@ -1,4 +1,4 @@
-package ywm.itg.core.exception.code;
+package com.github.ywm.itg.core.exception.code;
 
 import java.io.IOException;
 import java.io.InputStream;

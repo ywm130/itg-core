@@ -1,4 +1,4 @@
-package ywm.itg.core.service;
+package com.github.ywm.itg.core.service;
 
 import java.net.InetAddress;
 import java.net.NetworkInterface;
@@ -166,14 +166,4 @@ public class IdGeneratorService {
 		return System.currentTimeMillis();
 	}
 
-	public static void main(String[] args) {
-		IdGeneratorService idG = new IdGeneratorService();
-		for (int i = 0; i < 100; i++) {
-			long id = idG.nextId();
-			System.out.println(id);
-//			String l = Long.toBinaryString(id);
-//			System.out.println(l.length());
-//			System.out.println(l);
-		}
-	}
 }

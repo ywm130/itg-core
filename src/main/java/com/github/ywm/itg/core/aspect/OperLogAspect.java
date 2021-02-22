@@ -1,4 +1,4 @@
-package ywm.itg.core.aspect;
+package com.github.ywm.itg.core.aspect;
 
 import java.lang.reflect.Method;
 import java.sql.Timestamp;
@@ -19,14 +19,14 @@ import org.springframework.util.StringUtils;
 import org.springframework.web.context.request.RequestAttributes;
 import org.springframework.web.context.request.RequestContextHolder;
 
+import com.github.ywm.itg.core.annotation.OperLog;
+import com.github.ywm.itg.core.pojo.OperationLog;
+import com.github.ywm.itg.core.service.IdGeneratorService;
+import com.github.ywm.itg.core.utils.ItgUtils;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 
 import lombok.extern.log4j.Log4j2;
-import ywm.itg.core.annotation.OperLog;
-import ywm.itg.core.pojo.OperationLog;
-import ywm.itg.core.service.IdGeneratorService;
-import ywm.itg.core.utils.ItgUtils;
 
 /**
  * 切面处理类，操作日志异常日志记录处理

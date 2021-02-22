@@ -1,4 +1,4 @@
-package ywm.itg.core.utils;
+package com.github.ywm.itg.core.utils;
 import java.lang.reflect.AccessibleObject;
 import java.lang.reflect.Array;
 import java.lang.reflect.Field;

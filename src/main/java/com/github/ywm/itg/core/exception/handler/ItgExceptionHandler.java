@@ -1,4 +1,4 @@
-package ywm.itg.core.exception.handler;
+package com.github.ywm.itg.core.exception.handler;
 
 import java.sql.SQLException;
 import java.sql.Timestamp;
@@ -19,17 +19,17 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.context.request.RequestAttributes;
 import org.springframework.web.context.request.RequestContextHolder;
 
+import com.github.ywm.itg.core.exception.ItgExcption;
+import com.github.ywm.itg.core.exception.code.ErrorCode;
+import com.github.ywm.itg.core.exception.code.SQLErrorCode;
+import com.github.ywm.itg.core.pojo.ExceptionLog;
+import com.github.ywm.itg.core.service.IdGeneratorService;
+import com.github.ywm.itg.core.utils.ItgUtils;
+import com.github.ywm.itg.core.vo.R;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 
 import lombok.extern.log4j.Log4j2;
-import ywm.itg.core.exception.ItgExcption;
-import ywm.itg.core.exception.code.ErrorCode;
-import ywm.itg.core.exception.code.SQLErrorCode;
-import ywm.itg.core.pojo.ExceptionLog;
-import ywm.itg.core.service.IdGeneratorService;
-import ywm.itg.core.utils.ItgUtils;
-import ywm.itg.core.vo.R;
 
 /**
  * @author ywm

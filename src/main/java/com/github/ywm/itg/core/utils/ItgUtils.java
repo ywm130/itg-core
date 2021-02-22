@@ -1,4 +1,4 @@
-package ywm.itg.core.utils;
+package com.github.ywm.itg.core.utils;
 
 import java.sql.Timestamp;
 import java.util.HashMap;
@@ -56,10 +56,5 @@ public class ItgUtils {
 			ip = request.getRemoteAddr();
 		}
 		return ip.equals("0:0:0:0:0:0:0:1") ? "127.0.0.1" : ip;
-	}
-	
-	public static void main(String[] args) {
-		  Timestamp timestamp  = new Timestamp(System.currentTimeMillis());
-		  System.out.println(timestamp.toString());
 	}
 }

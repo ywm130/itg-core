@@ -1,4 +1,4 @@
-package ywm.itg.core.pojo;
+package com.github.ywm.itg.core.pojo;
 
 import lombok.Data;
 

@@ -1,6 +1,6 @@
-package ywm.itg.core.exception;
+package com.github.ywm.itg.core.exception;
 
-import ywm.itg.core.exception.code.ErrorCode;
+import com.github.ywm.itg.core.exception.code.ErrorCode;
 
 public class ItgExcption extends RuntimeException {
 	private static final long serialVersionUID = -1376668028768465706L;

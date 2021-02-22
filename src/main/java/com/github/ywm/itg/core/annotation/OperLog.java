@@ -1,4 +1,4 @@
-package ywm.itg.core.annotation;
+package com.github.ywm.itg.core.annotation;
 
 import java.lang.annotation.Documented;
 import java.lang.annotation.ElementType;
