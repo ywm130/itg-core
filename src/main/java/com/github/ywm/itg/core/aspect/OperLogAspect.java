@@ -52,7 +52,7 @@ public class OperLogAspect {
     /**
      * 设置操作日志切入点 记录操作日志 在注解的位置切入代码
      */
-    @Pointcut("@annotation(ywm.itg.core.annotation.OperLog)")
+    @Pointcut("@annotation(com.github.ywm.itg.core.annotation.OperLog)")
     public void operLogPoinCut() {
     }
 
